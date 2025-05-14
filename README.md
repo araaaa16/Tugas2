@@ -34,7 +34,6 @@ void tampilkanBuku() {
         return;
     }
 
-    // Bubble sort berdasarkan judul
     for (Buku* i = head; i != nullptr; i = i->next) {
         for (Buku* j = i->next; j != nullptr; j = j->next) {
             if (i->judul > j->judul) {
